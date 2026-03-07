@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req, res) => {
-  res.json({ message: "Palli Venkaiah Home route working ... 🚀" });
+  res.json({ message: "Vicky Palli Working on CI/CD for ECS🚀" });
 });
 
 app.get("/about", (req, res) => {
