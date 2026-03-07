@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to the Api🚀" });
+  res.json({ message: "Testing modified code🚀" });
 });
 
 app.get("/about", (req, res) => {
