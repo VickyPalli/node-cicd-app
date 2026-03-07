@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Home Page 🚀");
+  res.json({ message: "Home route working fine 🚀" });
 });
 
 app.get("/about", (req, res) => {
