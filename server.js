@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req, res) => {
-  res.json({ message: "Jenkins is open source CI/CD tool 🚀" });
+  res.json({ message: "Deployed with Jenkins POLLSCM trigger mechanism...🚀" });
 });
 
 app.get("/about", (req, res) => {
