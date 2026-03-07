@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req, res) => {
-  res.json({ message: "Vicky Palli Working on CI/CD for ECS🚀" });
+  res.json({ message: "Jenkins is open source CI/CD tool 🚀" });
 });
 
 app.get("/about", (req, res) => {
