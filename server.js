@@ -10,7 +10,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({
     message:
-      "Testing Deployement Jenkins Github POLLSCM Webhook trigger mechanism ...🚀",
+      "Deploment with groovy script Jenkinsfile ...🚀",
   });
 });
 
