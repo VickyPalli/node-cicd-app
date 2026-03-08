@@ -8,7 +8,10 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req, res) => {
-  res.json({ message: "Deployed with Jenkins Github Webhook trigger mechanism...🚀" });
+  res.json({
+    message:
+      "Testing Deployement Jenkins Github POLLSCM Webhook trigger mechanism...🚀",
+  });
 });
 
 app.get("/about", (req, res) => {
