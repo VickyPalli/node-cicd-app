@@ -10,7 +10,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({
     message:
-      "Deploment with groovy script Jenkinsfile ...🚀",
+      "Deploment with groovy script Jenkinsfile🚀",
   });
 });
 
