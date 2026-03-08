@@ -5,7 +5,7 @@ pipeline {
         AWS_REGION = "ap-south-1"
         ACCOUNT_ID = "730335195287"
         ECR_REPO = "node-cicd-app"
-        CLUSTER = "node-cicd-cluster"
+        CLUSTER = "node-cicd-app-ecs-cluster"
         SERVICE = "node-cicd-service"
         TASK_FAMILY = "node-cicd-task"
         IMAGE_TAG = "${env.GIT_COMMIT.take(7)}"
