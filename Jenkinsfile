@@ -12,13 +12,6 @@ pipeline {
     }
 
     stages {
-
-        stage('Checkout Code') {
-            steps {
-                git url: 'https://github.com/YOUR_USERNAME/YOUR_REPO.git', branch: 'main'
-            }
-        }
-
         stage('Login to ECR') {
             steps {
                 sh '''
